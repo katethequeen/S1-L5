@@ -28,12 +28,11 @@ p {
 /*-- HEADER style --*/
 
 header {
-  border: 1px solid red;
   text-align: center;
   background-color: black;
 }
 header img {
-  width: 50%;
+  width: 30%;
   padding-block: 20px;
 }
 
@@ -47,25 +46,121 @@ main img {
 }
 
 .first-content {
-  padding: 30px;
+  padding: 40px;
   background-image: url(./../images/banner.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 620px;
+  background-position-y: top;
   background-repeat: no-repeat;
 }
 h1 {
   font-size: 30px;
+  font-weight: 800;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
+  padding-inline: 40px;
+}
+.first-content button {
+  margin-top: 30px;
+  width: 150px;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  padding-inline: 22px;
+  padding-block: 15px;
+  border: 0;
 }
 
+main h2 {
+  margin-bottom: 10px;
+}
+.content-text {
+  padding-inline: 30px;
+}
+
+main div:nth-child(2) {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.round-img {
+  margin-block: 20px;
+}
 .round-img img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+main div:nth-child(6) {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+article {
+  background-color: orangered;
+  padding-block: 45px;
+  color: #fff;
+}
+article h2 {
+  color: #fff;
+  font-size: 35px;
+}
+article p:nth-child(2) {
+  padding: 30px 20px;
+  font-style: italic;
+}
+article p:nth-child(4) {
+  font-size: 13px;
+}
+
+/*-- CARDS style --*/
+.sec-container {
+  margin-block: 60px;
+}
+section {
+  vertical-align: middle;
+  margin-inline: auto;
+  border: 1px solid #dee1e3;
+  width: 90%;
+  margin-bottom: 30px;
+}
+section h3 {
+  padding-top: 30px;
+}
+section p {
+  padding: 10px 30px 40px;
+}
 
 /*-- FOOTER style --*/
 footer {
   text-align: center;
+  background-color: #25a2c3;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  color: #c8e7f0;
+}
+footer h2 {
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+footer i {
+  padding-right: 5px;
+}
+footer a {
+  display: block;
+  color: #c8e7f0;
+}
+
+hr {
+  width: 50%;
+  margin-block: 40px;
+}
+footer p:last-child {
+  font-size: 15px;
+}
+footer p:last-child a {
+  display: inline-block;
 }
